@@ -1,0 +1,6 @@
+# Block direct web access to internal folders and files
+RedirectMatch 403 ^/?(.*/)?(config|includes|partials|database)/
+<FilesMatch "\.(sql|md|env)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

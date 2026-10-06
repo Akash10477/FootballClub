@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#23365f"/><stop offset="1" stop-color="#0E1A33"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter></defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<g filter="url(#sh)"><path d="M220 120 L160 140 L80 215 L130 285 L175 250 L175 490 Q300 510 425 490 L425 250 L470 285 L520 215 L440 140 L380 120 Q300 175 220 120Z" fill="#F2C14E"/>
+<path d="M160 140 L80 215 L130 285 L175 250 Z" fill="#22B8CF"/><path d="M440 140 L520 215 L470 285 L425 250 Z" fill="#22B8CF"/>
+<path d="M220 120 Q300 175 380 120 L365 115 Q300 150 235 115Z" fill="#0E1A33"/><circle cx="360" cy="215" r="18" fill="#0E1A33" opacity=".9"/><text x="300" y="400" text-anchor="middle" font-family="Oswald,Arial Black,sans-serif" font-weight="700" font-size="120" fill="#0E1A33" opacity=".9">10</text></g></svg>

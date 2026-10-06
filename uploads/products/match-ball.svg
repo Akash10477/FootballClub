@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#1e4d3a"/><stop offset="1" stop-color="#0a1f16"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter></defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<g filter="url(#sh)"><circle cx="300" cy="300" r="175" fill="#F4F6FB"/>
+<path d="M300 210 L355 250 L335 315 L265 315 L245 250Z" fill="#0E1A33"/>
+<path d="M300 125 L300 210 M355 250 L440 225 M335 315 L385 390 M265 315 L215 390 M245 250 L160 225" stroke="#0E1A33" stroke-width="6"/>
+<path d="M300 125 Q360 128 410 160 L440 225 L400 180Z M160 225 L190 160 Q240 128 300 125 L200 180Z" fill="#22B8CF" opacity=".85"/>
+<path d="M215 390 L260 455 Q300 470 340 455 L385 390 L300 430Z" fill="#F2C14E"/>
+<circle cx="300" cy="300" r="175" fill="none" stroke="#c9d2e3" stroke-width="4"/></g></svg>
